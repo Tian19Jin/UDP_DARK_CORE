@@ -65,8 +65,6 @@ namespace UDP_CLIENT
             y++;
         }
     
-
-
         private void btnStart_Click(object sender, EventArgs e)
         {
             string ip = txtIP.Text;
