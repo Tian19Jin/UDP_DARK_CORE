@@ -69,6 +69,8 @@ namespace UDP_SERVER
                 listenThread = null;
             }
 
+            ChCoordenades.Series["Coordinates"].Points.Clear();
+
             MessageBox.Show("Servidor desconnectat.");
         }
 
